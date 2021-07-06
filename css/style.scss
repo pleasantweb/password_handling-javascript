@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.passwordMatch{
+    width: 70%;
+    height: 300px;
+    margin: 100px auto;
+    text-align: center;
+    h1{
+       font-weight: 100;
+    }
+    form{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .pass{
+            width: 100%;
+            height: 40px;
+            font-size: 1.8rem;
+            outline: none;
+            border: 1px solid gray;
+        }
+        .btn{
+            cursor: pointer;
+           width: 20%;
+           height: 30px;
+           border-radius: 16px;
+           background-color: lightcoral;
+           outline: none;
+           border: none;
+           font-size: 1.4rem;
+           font-weight: 100;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    }
+    .message{
+        margin-top: 30px;
+        p{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 100;
+            font-size: 1.5rem;
+            color: #058fb2;
+        }
+    }
+   
+}
